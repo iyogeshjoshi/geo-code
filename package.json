@@ -1,0 +1,33 @@
+{
+  "name": "geo-code",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iyogeshjoshi/geo-code.git"
+  },
+  "keywords": [
+    "geo code",
+    "institute finder",
+    "location"
+  ],
+  "author": {
+    "name": "Yogesh Joshi",
+    "email": "iyogeshjoshi@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iyogeshjoshi/geo-code/issues"
+  },
+  "homepage": "https://github.com/iyogeshjoshi/geo-code",
+  "dependencies": {
+    "node-geocoder": "^2.20.0",
+    "geo-proximity": "^2.1.0",
+    "mongoose": "^4.0.1",
+    "mongodb": "^2.0.27"
+  }
+}
